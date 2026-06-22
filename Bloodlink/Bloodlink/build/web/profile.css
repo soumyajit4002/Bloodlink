@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Oct, 2025, 1:48:56 AM
+    Author     : Soumalya
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profile-container {
+  background: #ffffff;
+  width: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(230, 57, 70, 0.2);
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #e63946;
+  object-fit: cover;
+}
+
+.user-name {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #222;
+}
+
+.blood-group {
+  color: #e63946;
+  font-weight: 600;
+}
+
+.info-section {
+  margin-top: 20px;
+}
+
+.info-section h3 {
+  border-left: 4px solid #e63946;
+  padding-left: 10px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-section p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+ 
+}
+
+.edit-btn {
+  background-color: #0077b6;
+  color: white;
+  
+}
+
+
+button:hover {
+  opacity: 0.9;
+}

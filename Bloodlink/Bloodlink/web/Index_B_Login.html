@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BloodLink - Home</title>
+ 
+  <style>
+      body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c62828;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links a:hover {
+  color: #c62828;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background-color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-red {
+  background-color: #c62828;
+  color: white;
+  border: none;
+}
+
+.btn-red:hover {
+  background-color: #b71c1c;
+}
+
+.btn-outline {
+  border: 2px solid #c62828;
+  color: #c62828;
+  background-color: white;
+}
+
+.btn-outline:hover {
+  background-color: #fbeaea;
+}
+
+/* Feature Cards */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.card {
+  background-color: #fafafa;
+  width: 200px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.card .icon {
+  font-size: 32px;
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="logo">🩸 <span>BloodLink</span></div>
+    <div class="nav-links">
+      <a href="Index_B_Login.html">Home</a>
+      <a href="matches.html">Matches</a>
+      <a href="LoginAdmin.html">Admin</a>
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to BloodLink</h1>
+    <p>A trusted portal to request or donate blood in emergencies.</p>
+    <div class="hero-buttons">
+      <a href="Registration.html" class="btn btn-red">Join as Donor</a>
+      <a href="Registration.html" class="btn btn-outline">Request Blood</a>
+    </div>
+  </div>
+
+  <!-- Feature Cards -->
+  <div class="card-container">
+    <div class="card">
+      <div class="icon">➕</div>
+      <h3>Register</h3>
+      <p>Become a donor or requestor</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔒</div>
+      <h3>Login</h3>
+      <p>Access your dashboard</p>
+    </div>
+    <div class="card">
+      <div class="icon">🩸</div>
+      <h3>Make a Request</h3>
+      <p>Fill blood request form</p>
+    </div>
+    <div class="card">
+      <div class="icon">👤</div>
+      <h3>Donor Availability</h3>
+      <p>Check donors near your area</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 BloodLink. All rights reserved.
+  </footer>
+
+</body>
+</html>

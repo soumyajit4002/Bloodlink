@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="Style1.css" />
+</head>
+<body>
+  <div class="registration-container">
+    <h2>Login</h2>
+    <form action="Login" method="post">
+	  <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="Name" placeholder="Enter your full name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+	  <div class="form-group">
+        <label for="ph_number">Phone Number</label>
+        <input type="number" id="text" placeholder="Enter your mobile number" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required />
+        <p><a href="Forgetpass.html" style="font-size: small;">Forgot Password?</a></p>
+      </div>
+      <button type="submit" value="Login" class="submit-btn">Login</button>
+      <div class="login-link">
+        Don't have an account? <a href="Registration.html">Register here</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

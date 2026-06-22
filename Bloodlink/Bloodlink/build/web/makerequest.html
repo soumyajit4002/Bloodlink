@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Make a Blood Request</title>
+  <link rel="stylesheet" href="make_request.css" />
+</head>
+<body>
+
+  <div class="request-form">
+    <h2>Make a Blood Request</h2>
+    <form action="Request" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="phno">Phone Number</label>
+        <input type="number" name="ph" id="ph" >
+      <label for="bloodGroup">Required Blood Group:</label>
+      <select id="bloodGroup" name="bloodGroup" required>
+        <option value="">--Select--</option>
+        <a href="makerequest.html"></a>
+        <option value="A+">A+</option>
+        <option value="B+">B+</option>
+        <option value="AB+">AB+</option>
+        <option value="O+">O+</option>
+        <option value="A-">A-</option>
+        <option value="B-">B-</option>
+        <option value="AB-">AB-</option>
+        <option value="O-">O-</option>
+      </select>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter city or area" required />
+
+      <label for="urgency">Urgency Level:</label>
+      <select id="urgency" name="urgency" required>
+        <option value="">--Select--</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

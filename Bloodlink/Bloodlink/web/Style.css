@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Jun, 2025, 1:59:43 AM
+    Author     : Soumalya
+*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-left .logo {
+  color: #c62828;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-left .logo span {
+  vertical-align: middle;
+}
+
+.navbar-right a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar-right a:hover {
+  color: #c62828;
+}
+
+.blog-section {
+text-align: center;
+padding-top: 2%;
+background-color: rgb(245, 245, 245);
+}
+.cont{
+ 
+  padding-right: 3%;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-red {
+  background-color: #c62828;
+  color: white;
+  border: none;
+}
+
+.btn-red:hover {
+  background-color: #b71c1c;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #c62828;
+  border: 2px solid #c62828;
+}
+
+.btn-outline:hover {
+  background-color: #fcecec;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  width: 200px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #c62828;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
